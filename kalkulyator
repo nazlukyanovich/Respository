@@ -1,1 +1,32 @@
-
+#include <iostream> 
+using namespace std; 
+int a, b; 
+char action; 
+int main() 
+{ 
+cin >> a >> b >> action; 
+switch (action) 
+{ 
+case '+': 
+{ 
+cout << a + b; 
+break; 
+} 
+case '-': 
+{ 
+cout << a - b; 
+break; 
+} 
+case '*': 
+{ 
+cout << a * b; 
+break; 
+} 
+case '/': 
+{ 
+cout << a / b; 
+break; 
+} 
+} 
+return 0; 
+}
